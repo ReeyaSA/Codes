@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Luxury cars</title>
+</head>
+<body>
+    <header>
+        <div class="logo">CAR RENTAL</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+    <div class="container">
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/Honda/Honda_City.jpg" alt="City" srcset="">
+            </div>
+            <div class="text">
+                <h2>HONDA CITY</h2>
+                <p>Automatic car</p>
+                <p>Red color</p>
+                <p>Rent: 11000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/Toyota/Toyota_Hilux.jpg"alt="Hilux" srcset="">
+            </div>
+            <div class="text">
+                <h2>TOYOTA HILUX</h2>
+                <p>Automatic car</p>
+                <p>Blue color</p>
+                <p>Rent: 17000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/Toyota/Toyota_LandCruiserPrado.jpg" alt="Prado" srcset="">
+            </div>
+            <div class="text">
+                <h2>TOYOTA PRADO</h2>
+                <p>Automatic car</p>
+                <p>White color</p>
+                <p>Rent: 18000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+                
+            </div>
+        </div>    
+    </div>
+    <div class="container">
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/new/kia-sportage.jpg" alt="Sportage" srcset="">
+            </div>
+            <div class="text">
+                <h2>KIA SPORTAGE</h2>
+                <p>Automatic car</p>
+                <p>White color</p>
+                <p>Rent: 10000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/Honda/Honda_Civic.jpg" alt="Civic" srcset="">
+            </div>
+            <div class="text">
+                <h2>TOYOTA CIVIC</h2>
+                <p>Automatic car</p>
+                <p>Gray color</p>
+                <p>Rent: 10000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/Toyota/Toyota_Yaris.jpg" alt="Yaris" srcset="">
+            </div>
+            <div class="text">
+                <h2>TOYOTA YARIS</h2>
+                <p>Automatic car</p>
+                <p>Gray color</p>
+                <p>Rent: 10000 pkr</p>
+                <button class="button" type="button">Book Now</button>  
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/new/Audiq3-orange.jpg" alt="Audi" srcset="">
+            </div>
+            <div class="text">
+                <h2>AUDI Q3</h2>
+                <p>Automatic car</p>
+                <p>Orange color</p>
+                <p>Rent: 20000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/new/mercedes-AMG-white.jpg" alt="Mercedes" srcset="">
+            </div>
+            <div class="text">
+                <h2>MERECEDES AMG</h2>
+                <p>Automatic car</p>
+                <p>White color</p>
+                <p>Rent: 23000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="img">
+                <img src="assests/Cars/new/mercedes-benz-black.jpg" alt="Merecedes" srcset="">
+            </div>
+            <div class="text">
+                <h2>MERCEDES BENZ</h2>
+                <p>Automatic car</p>
+                <p>Black color</p>
+                <p>Rent: 22000 pkr</p>
+                <button class="button" type="button">Book Now</button>
+            </div>
+        </div>  
+    </div>
+    </div>
+
+<footer class="home-footer">
+    <ul>
+        <li><a href="#">About US</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Contact US</a></li>
+    </ul>
+</footer>
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function() {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+</script>
+</body>
+</html>

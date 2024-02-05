@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental|Contact Us</title>
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CAR RENTAL</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+    <h1>CONTACT US</h1><br><br><br>
+    <h3>GET IN TOUCH</h3><br>
+        <form>
+            <label for="name">Name:</label><br><br>
+            <input type="text" id="name" required>
+            <br><br>
+
+            <label for="email">Email:</label><br><br>
+            <input type="email" required id="email">
+            <br><br>
+            
+            <label for="tel">Phone number:</label><br><br>
+            <input type="tel" id="tel" placeholder="+92">
+            <br><br>
+            
+            <label for="box">Your message:</label><br><br>
+            <textarea rows="4" cols="47" name="comment" placeholder="Type yout message..."></textarea>
+            <br><br><br>
+           
+            <button class="button">SUBMIT</button>
+        </form>
+    </div>
+
+    <footer class="home-footer">
+        <ul>
+            <li><a href="#">About US</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Contact US</a></li>
+        </ul>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

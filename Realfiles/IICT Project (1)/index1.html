@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CAR RENTAL</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="intro" id="intro">
+        <div class="text">
+            <h1>RENT<br> A CAR <br>TODAY</h1>
+            <p>Free cancellations on most booking <br> 60,000+ locations <br> Customer support in 40+ languages</p>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-up Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" name="" id="" class="btn">
+            </form>
+        </div>
+    </section>
+    <section class="home" id="home">
+        <div class="heading">
+            <h1>Rental Vehicles</h1>
+        </div>
+        <div class="home-container">
+            <div class="box">
+                <div class="box-image" id="bimage1">
+                <img src="images/minicar1.jpg">
+                </div>
+                <a href="#" class="btn1">Budget</a>
+            </div>
+            <div class="box">
+                <div class="box-image" id="bimage2">
+                <img src="images/car2.jpg">
+                </div>
+                <a href="#" class="btn1">Luxury</a>
+            </div>
+        </div>
+    </section>
+    <section class="home1" id="home1">
+        <div class="heading1">
+            <h1>Car Categories</h1>
+        </div>
+        <div class="home1-container">
+            <div class="box1">
+                <div class="box-image1" id="bimage3">
+                <img src="images/toyota.jpg">
+                </div>
+                <a href="#" class="btn2">Toyota</a>
+            </div>
+            <div class="box1">
+                <div class="box-image1" id="bimage4">
+                <img src="images/honda.jpg">
+                </div>
+                <a href="#" class="btn2">Honda</a>
+            </div>
+            <div class="box1">
+                <div class="box-image1" id="bimage4">
+                <img src="images/kia.jpg">
+                </div>
+                <a href="#" class="btn2">Kia</a>
+            </div>
+            <div class="box1">
+                <div class="box-image1" id="bimage4">
+                <img src="images/suzuki.jpg">
+                </div>
+                <a href="#" class="btn2">Suzuki</a>
+            </div>
+            <div class="box1">
+                <div class="box-image1" id="bimage4">
+                <img src="images/daihatsu.jpg">
+                </div>
+                <a href="#" class="btn2">Daihatsu</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="home-footer">
+        <ul>
+            <li><a href="#">About US</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Contact US</a></li>
+        </ul>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
