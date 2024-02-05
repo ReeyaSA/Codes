@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.png" width="100px" height="100px" alt=""></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+    <h1><center>CONTACT US</center></h1>
+    
+    <div class="main">
+        <center>
+    <form action="">
+        <input type="text" placeholder="Name*" name="" id="">
+        <input type="email" placeholder="Email Address*" name="" id="">
+        <br>
+        <input type="tel" placeholder="Phone*" name="" id="">
+        <input type="text" placeholder="Company*" name="" id="">
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Description*"></textarea>
+        <br>
+        <button id="subbtn">SUBMIT</button>
+    </form>
+    
+    <footer class="home-footer">
+        <ul>
+            <li><a href="aboutus.html">About US</a></li>
+            <li><a href="FAQs.html">FAQs</a></li>
+            <li><a href="privacy policy.html">Privacy Policy</a></li>
+            <li><a href="Term of Use.html">Terms of use</a></li>
+            <li><a href="contactus.html">Contact US</a></li>
+        </ul>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</div>
+</body>
+</html>

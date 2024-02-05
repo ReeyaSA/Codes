@@ -1,0 +1,27 @@
+h1{
+   
+    color: darkgreen;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
+    border: solid black;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    float:left;
+}
+#main1{
+    background-color: olivedrab;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+#main2{
+    background-color: olivedrab;
+    width: 150px;
+    height: 50px;
+    color: black;
+}

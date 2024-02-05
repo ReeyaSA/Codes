@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: solid 1px black;
+            display: inline-block;
+            padding: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<form>
+<br>
+Select a Language <br><br>
+<input type="radio" name="radio" id="main1"> HTML
+<input type="radio" name="radio"  id="main2"> CSS 
+<input type="radio" name="radio" id="main3"> JAVASCRIPT 
+<p id="p"></p>
+<input type="button" ondblclick="Checkfunc()"  value="Description" style="background:yellow;"><br><br>
+</form>
+
+
+<script>
+    function Checkfunc(){
+      if(document.getElementById("main1").checked){
+        document.getElementById("p").innerHTML="Its define the content of web page";
+        document.getElementById("p").style.color="purple";
+
+      }
+       else if(document.getElementById("main2").checked){
+        document.getElementById("p").innerHTML="Its specific the layout of web pages";
+        document.getElementById("p").style.color="green";
+      }
+     else if(document.getElementById("main3").checked){
+        document.getElementById("p").innerHTML="Its programm the behaviour of web pages";
+        document.getElementById("p").style.color="blue";
+      }
+      
+    }
+
+</script>
+
+
+
+
+</body>
+</html>

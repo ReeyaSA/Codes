@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="button.css">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+        <h1>Forms:</h1>
+        <p>
+        <label for ="text">Number</label><br>
+        <input type="number" name="g" id="num1" placeholder="input a number">
+        </p>
+
+        <button id="main1" type="button" onclick='square()'>
+            SQUARE
+            </button><br><br>
+            <button id="main2" type="button" onclick='cube()'>
+            CUBE
+            </button>
+
+        <script>
+            function square()
+            {
+            var g,Square;
+            g = parseInt(document.getElementById ("num1").value);
+            Square = g*g;
+            document.getElementById ("main1").innerHTML ="Square of "+g+" is : "+Square;
+            }
+            </script>
+            <script>
+             function cube()
+             {
+             var g,cube;
+             g = parseInt(document.getElementById ("num1").value);
+             cube = g*g*g;
+             document.getElementById ("main2").innerHTML ="Cube of "+g+" is : " +cube;
+             }
+             </script>
+           
+
+    </body>
+</html>

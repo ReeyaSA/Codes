@@ -1,0 +1,16 @@
+#mehran{
+    width: 350px;
+    height: 190px;
+    margin-left: 50px;
+    transition: width 2s,height 2s;
+}
+div:hover{
+    width: 150px;
+    height: 150px;
+}
+#mehran:hover{
+    width: 350px;
+    height: 190px;
+    margin-left: 50px;
+    transition: width 2s,height 2s;
+}

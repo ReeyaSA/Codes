@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="app.js"></script>
+      <title>Useless Form</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="forminfo">
+            <form name="myform">
+                <ul>
+                    <div class="item">
+                       <label>Username </label><br>
+                       <input class="textbox" type="text" name="username" id="usernameid" pattern="[a-zA-Z]+" placeholder="enter username here">
+                    </div>
+                    <div class="item">
+                       <label>Password — Must contain UpperCase, LowerCase and Number</label><br>
+                       <input class="textbox" type="password" name="password" id="passwordid" placeholder="enter password here" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    <div class="item">
+                       <label>Confirm Password</label><br>
+                       <input class="textbox" type="password" name="cpassword" id="cpasswordid" placeholder="re-enter password here" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    <div class="item">
+                        <button type="button" onclick="return checker(), showinput()">Submit</button>
+                    </div>
+                 </ul>
+            </form>
+         </div>
+         <div class="output">
+            <p id="output1"></p>
+            <p id="output2"></p>
+            <p id="output3"></p>
+            <p id="output4"></p>
+         </div>
+      </div>
+   </body>
+</html>
